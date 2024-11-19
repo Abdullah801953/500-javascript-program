@@ -1,9 +1,10 @@
+// reverse a string
 const reverseStr = (str) => {
-    for (let i = str.length - 1; i >= 0; i--) {
-        let arr=[];
-        newArr=arr.push(str[i]);
+    let arr = [];
+    for (let i = str.length - 1; i >= 0; i--) {  
+        arr.push(str[i]);
     }
-    return newArr;
+    return arr.join('');
 }
-const output=reverseStr('hello');
+const output = reverseStr('abdullah');
 console.log(output);
