@@ -8,5 +8,6 @@ function primeOrNot(num) {
         }
     }
     return 'prime number'
+    console.log(Math.sqrt(num));
 }
-const output = console.log(primeOrNot(3))
+const output = console.log(primeOrNot(5))
