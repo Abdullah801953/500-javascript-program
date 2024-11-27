@@ -1,15 +1,17 @@
-function fibonaaciNumber(num) {
-    let a = 0;
-    let b = 1;
+function fibonnaciSeries(n) {
+    let a=0;
+    let b=1;
     console.log(a);
-    if (num >= 1) {
+    if(n>=1){
         console.log(b);
     }
-    for (let i = 2; i < num; i++) {
-        let next = a + b;
-        console.log(next)
-        a = b;
-        b = next;
+    for(let i=2;i<n;i++){
+        let next=a+b;
+        console.log(next);
+        a=b;
+        b=next;
     }
 }
-console.log(fibonaaciNumber(5));
+let n=10;
+fibonnaciSeries(n);
+
